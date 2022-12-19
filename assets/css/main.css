@@ -2277,14 +2277,14 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 20%;
+		border-radius: 4px;
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
-			border-radius: 20%;
+			border-radius: 4px;
 			display: block;
 		}
 
@@ -2293,7 +2293,7 @@ input, select, textarea {
 		}
 
 			.image.left img, .image.right img {
-				width: 20%;
+				width: 100%;
 			}
 
 		.image.left {
@@ -2311,7 +2311,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2.4em 0;
-			width: 40%;
+			width: 100%;
 		}
 
 			.image.fit img {
@@ -4144,6 +4144,8 @@ ul.alt-icons-footer {
 			#header.alt a[href="#menu"] {
 				padding-left: 1em;
 			}
+		
+
 
 	@media screen and (max-width: 980px) {
 
@@ -4545,3 +4547,18 @@ ul.alt-icons-footer {
 			}
 
 		}
+
+#headshot {
+	width: 350px;
+	border-radius: 50%;
+}
+
+.fireflyLogo {
+	width: 60% !important;
+	margin: auto !important;
+}
+
+.fireflyImage {
+	width: 95% !important;
+	margin: auto !important;
+}
